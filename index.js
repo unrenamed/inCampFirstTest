@@ -1,19 +1,19 @@
-//const studentUrl = 'http://localhost:3000/students';
-//
-//window.onload = init;
-//
-//function init(){
-//    fetch(studentUrl)
-//        .then(res => res.json())
-//        .then(renderStudents)
-//}
+const studentUrl = 'http://localhost:3000/students';
+
+window.onload = init;
+
+function init(){
+    fetch(studentUrl)
+        .then(res => res.json())
+        .then(renderStudents)
+}
 
 
-renderStudents([
+/*renderStudents([
     {name: "Nazar", surname: "Poshtarenko", graduate: 4},
     {name: "Sasha", surname: "Kotov", graduate: 5},
     {name: "Oleg", surname: "Nosurname", graduate: 2}
-    ]);
+    ]);*/
 
 
 function renderStudents(students){
