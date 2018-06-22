@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "name": "Nazar",
+      "surname": "Poshtarenko",
+      "graduate": 4
+    },
+    {
+      "name": "Sasha",
+      "surname": "Kotov",
+      "graduate": 5
+    },
+    {
+      "name": "Oleg",
+      "surname": "Nosurname",
+      "graduate": 2
+    }
+  ]
+}
